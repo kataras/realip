@@ -37,7 +37,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
-> The `Get(r)` functions calls the `Default.Get(r)` method
+> The `Get(r)` function calls the `Default.Get(r)` method
 
 ### Options
 
@@ -87,7 +87,7 @@ func main() {
     myOptions.AddRange("192.168.0.0", "192.168.255.255")
 
     // [...]
-    http.HandleFunc("/", handler(opts))
+    http.HandleFunc("/", handler(myOptions))
 }
 
 func handler(opts *realip.Options) http.HandlerFunc {
