@@ -1,6 +1,6 @@
 # Real IP
 
-[![build status](https://img.shields.io/github/workflow/status/kataras/realip/CI/master?style=for-the-badge)](https://github.com/kataras/realip/actions) [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=for-the-badge)](https://goreportcard.com/report/github.com/kataras/realip) [![godocs](https://img.shields.io/badge/go-%20docs-488AC7.svg?style=for-the-badge)](https://pkg.go.dev/github.com/kataras/realip)
+[![build status](https://img.shields.io/github/actions/workflow/status/kataras/realip/ci.yml?style=for-the-badge)](https://github.com/kataras/realip/actions) [![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=for-the-badge)](https://goreportcard.com/report/github.com/kataras/realip) [![godocs](https://img.shields.io/badge/go-%20docs-488AC7.svg?style=for-the-badge)](https://pkg.go.dev/github.com/kataras/realip)
 
 Extract the real HTTP client's Remote IP Address.
 
